@@ -1,0 +1,12 @@
+data = [2800,2939,3010,2850,2865]
+
+totalX = 0
+totalX2 = 0
+
+for element in data:
+    totalX += element
+    totalX2 += (element * element)
+    print ('x: ' + str(element) + ' x^2: ' + str(element * element))
+    
+print('total x: ' + str(totalX) + ' total x^2: ' + str(totalX2))
+
